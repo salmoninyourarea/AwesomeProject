@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, TextInput, View } from 'react-native';
 
 import Welcome from './screens/Welcome';
 import Ex01 from './screens/week2/Ex01';
@@ -16,10 +16,16 @@ import Ex10 from './screens/week2/Ex10';
 import Ex11 from './screens/week2/Ex11';
 import Ex12 from './screens/week2/Ex12';
 import Extra from './screens/week2/Extra';
+import Travel from './screens/week3/Travel';
+import Resort from './screens/week3/Resort';
 
 
 export default function App() {
   return (
-    <Extra />    
-  );
+    // <Welcome />
+    // <Ex1 />
+    // <Ex2 />
+    //<Travel />
+     <Resort />
+    );
 }
